@@ -30,14 +30,7 @@ const initials = {
   data: getInitialData(),
   score: 0,
   highestScore: +localStorage.getItem("highScore"),
-};
-//fill two positions at the tme of game start
-// const r1 = Math.floor(Math.random() * 3);
-// const r2 = Math.floor(Math.random() * 3);
-// const r3 = Math.floor(Math.random() * 3);
-// const r4 = Math.floor(Math.random() * 3);
-// initials.data[+r1][+r2] = Math.random() <= 0.5 ? 2 : 4;
-// initials.data[+r4][+r3] = Math.random() <= 0.5 ? 2 : 4;
+}
 
 //handle move right
 const moveRight = (data) => {
