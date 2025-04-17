@@ -170,7 +170,7 @@ const move = (data, score, side) => {
     return { gameResult, score };
   }
 };
-a
+
 const GameData = createSlice({
   name: "GameData",
   initialState: initials,
